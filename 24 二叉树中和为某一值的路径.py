@@ -19,43 +19,35 @@ class Solution:
         # write code here
         if not root:
             return
-
         res = []
 
         def recursion(root, path, curSum):
             path.append(root.val)
             curSum += root.val
-            if curSum == expectNumber and (not root.lef and not root.right):
-                res.append(path)
+            if curSum == expectNumber and (not root.left and not root.right):
+                res.append(curPath[:]) # 这里必须使用切片操作 拿到curPath的副本 因为res里的curPath只是引用 后面curPath会弹出 导致最终生成的都是空list
 
-class Solution0:
-    # 返回二维列表，内部每个列表表示找到的路径
-    def FindPath(self, root, expectNumber):
-        # write code here
-        if not root:
-            return []
-        result = []
-
-        def FindPath2(root, path, currentNum):
-            currentNum += root.val
-            # root使用append转成了列表，因为最后要一个序列，root本身还是树结构
-            path.append(root)
-            # 判断是不是到叶子节点了，到叶子节点了就要判断值的和是不是相等
-            flag = root.left == None and root.right == None
-            # 返回值是一个等于整数的序列
-            if currentNum == expectNumber and flag:
-                onepath = []
-                for node in path:
-                    onepath.append(node.val)
-                result.append(onepath)
-
-            if currentNum < expectNumber:
+            if curSum < expectNumber:
                 if root.left:
-                    FindPath2(root.left, path, currentNum)
+                    recFindPath(root.left, curPath, curSum)
                 if root.right:
-                    FindPath2(root.right, path, currentNum)
-            # 拿到一个正确的路径后要弹出，回到上一次父节点继续递归
-            path.pop()
+                    recFindPath(root.right, curPath, curSum)
+            curPath.pop() # 前序遍历完成之后 [根左右] 之后会回到上层所以根节点出栈
 
-        FindPath2(root, [], 0)
-        return result
+        recFindPath(root, [], 0)
+        return res
+
+if __name__ == '__main__':
+    pNode1 = TreeNode(10)
+    pNode2 = TreeNode(5)
+    pNode3 = TreeNode(12)
+    pNode4 = TreeNode(4)
+    pNode5 = TreeNode(7)
+
+    pNode1.left = pNode2
+    pNode1.right = pNode3
+    pNode2.left = pNode4
+    pNode2.right = pNode5
+
+    S = Solution()
+    print(S.FindPath(pNode1, 22))
