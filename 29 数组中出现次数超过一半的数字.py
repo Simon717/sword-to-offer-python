@@ -16,8 +16,9 @@
 class Solution:
     def MoreThanHalfNum_Solution(self, numbers):
         # write code here
-        if not numbers:
+        if not self.CheckValidInputs(numbers):
             return 0
+
         length = len(numbers)
         if length == 1:
             return numbers[0]
@@ -26,15 +27,52 @@ class Solution:
         middle = length >> 1
         middleNum = self.findK(numbers, middle)
 
-        if not self.CheckMoreThanHalf(middleNum):
+        if not self.CheckMoreThanHalf(numbers, middleNum):
             return 0
         return middleNum
 
-    def findK(self, nums, K):
+    def findK(self, nums, K): # 复杂度O(n)
+        start, end = 0, len(nums)-1
+        index  = self.Partition(nums, start, end)
+        while index != K:
+            if index < K:
+                start = index +  1
+            else:
+                end = index - 1
+            index = self.Partition(nums, start, end)
+        return nums[index]
+
         pass
 
-    def Partition(self, nums, ):
-        pass
+    def Partition(self, nums, start, end):
+        pivot = nums[start]
+        left, right = start+1, end
+        while True:
+            while left <= right and nums[left] < pivot:
+                left += 1
+            while left <= right and nums[right] > pivot:
+                right -= 1
+
+            if left > right:
+                break
+            else:
+                nums[left], nums[right] = nums[right], nums[left]
+                left += 1
+                right -= 1
+        nums[start], nums[right] = nums[right], nums[start]
+        return right
+
+    def CheckMoreThanHalf(self, nums, num):
+        cnt = 0
+        for n in nums:
+            if n == num:
+                cnt += 1
+        return cnt > (len(nums)/2)
+
+    def CheckValidInputs(self, nums):
+        if not nums or len(nums) <= 0:
+            return 0
+        return 1
 
 
 class Solution0:
@@ -122,6 +160,8 @@ class Solution0:
 
 if __name__ == '__main__':
     test = [3,2,2,2,3]
-    solu = Solution0()
+    solu = Solution()
+    # print(solu.MoreThanHalfNum_Solution(test))
+    print(solu.Partition(test, 0, len(test)-1))
+    print(solu.findK(test, 3))
     print(solu.MoreThanHalfNum_Solution(test))
-    print(test)
