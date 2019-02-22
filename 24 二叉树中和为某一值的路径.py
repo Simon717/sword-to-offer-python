@@ -18,11 +18,11 @@ class Solution:
     def FindPath(self, root, expectNumber):
         # write code here
         if not root:
-            return
+            return []
         res = []
 
-        def recursion(root, path, curSum):
-            path.append(root.val)
+        def recFindPath(root, curPath, curSum):
+            curPath.append(root.val)
             curSum += root.val
             if curSum == expectNumber and (not root.left and not root.right):
                 res.append(curPath[:]) # 这里必须使用切片操作 拿到curPath的副本 因为res里的curPath只是引用 后面curPath会弹出 导致最终生成的都是空list

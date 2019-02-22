@@ -43,3 +43,4 @@ def Hanoi(fromPole, withPole, toPole, diskNum):
         Hanoi(withPole, fromPole, toPole, diskNum-1)
 
 Hanoi('A', 'B', 'C', 3)
+
