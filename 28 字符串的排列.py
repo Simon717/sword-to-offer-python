@@ -7,6 +7,9 @@
 """
 
 # -*- coding:utf-8 -*-
+"""
+不通过
+"""
 class Solution:
     def Permutation(self, ss):
         # write code heres
@@ -52,7 +55,9 @@ class Solution1:
 
 
 """
-先从一堆字符中找到一个字符作为最终字符中的第一个字符 然后将剩余的字符进行相同的操作 ==> 递归
+先从一堆字符中找到一个字符作为最终字符中的第一个字符（扣出一个字符） 
+计算剩余字符的排列 得到本轮的排列
+然后将剩余的字符进行相同的操作 ==> 递归
 """
 class Solution0:
     def Permutation(self, ss):
@@ -68,7 +73,7 @@ class Solution0:
         for i in range(len(charList)):
             if i > 0 and charList[i] == charList[i-1]: # 目的是让相同的字符串连在一起
                 continue
-            temp = self.Permutation(''.join(charList[:i])+''.join(charList[i+1:]))
+            temp = self.Permutation(''.join(charList[:i])+''.join(charList[i+1:])) # 扣掉中间第i个字符之后 可能的排列
             for j in temp:
                 pStr.append(charList[i]+j) # +用于字符串的连接
         return pStr # 当前子串可能的排列
