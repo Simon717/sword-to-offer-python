@@ -21,6 +21,7 @@ class Solution:
         self.getDepth(pRoot)
         return self.flag
 
+    """实质上是后序遍历"""
     def getDepth(self, pRoot):
         # write code here
         if not pRoot:
