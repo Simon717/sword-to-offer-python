@@ -13,7 +13,7 @@ class Solution:
         if len(numbers) != 5:
             return False
 
-        # for i in range(len(numbers)):
+        # for i in range(len(numbers)): # 如果需要转换数字 使用哈希表进行转换
         #     if numbers[i] == 1:
         #         numbers[i] = 14
         #     if numbers[i] == 2:
@@ -22,16 +22,16 @@ class Solution:
         numbers.sort()
         cnt = 0
         for num in numbers:
-            if num:
+            if not num:
                 cnt += 1
 
         if cnt == 1:
             return True
         else:
-            same = self.isSame(numbers[5-cnt:])
+            same = self.isSame(numbers[cnt:]) # 考虑重复元素
             if same:
                 return False
-            if self.computeDist(numbers[5-cnt:]) <= 5-cnt:
+            if self.computeDist(numbers[cnt:]) <= cnt: #计算间隔之和
                 return True
             else:
                 return False

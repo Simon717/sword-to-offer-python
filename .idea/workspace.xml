@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f48705de-c7eb-4c57-bac3-efd091e2cc2c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/44 扑克牌顺子.py" beforeDir="false" afterPath="$PROJECT_DIR$/44 扑克牌顺子.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,34 +15,41 @@
     <session id="1108841650">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="27" />
+          <entry key="py" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="27" />
+          <entry key="Python" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="8" />
           <entry key="dummy" value="8" />
-          <entry key="py" value="7983" />
+          <entry key="py" value="9499" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="7991" />
+          <entry key="Python" value="9507" />
         </counts>
       </usages-collector>
     </session>
@@ -49,120 +57,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/38 数字在排序数组中出现的次数.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/617 mergeTrees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
-              <folding>
-                <marker date="1551579055649" expanded="true" signature="210:219" ph="..." />
-              </folding>
+            <state relative-caret-position="1035">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/39 二叉树的深度.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/01 two sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="40" selection-start-line="40" selection-end-line="49" selection-end-column="83" />
-              <folding>
-                <marker date="1551621390892" expanded="true" signature="489:495" ph="..." />
-                <marker date="1551621390892" expanded="true" signature="523:532" ph="..." />
-                <marker date="1551621390892" expanded="true" signature="1252:1878" ph="..." />
-              </folding>
+            <state relative-caret-position="713">
+              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/40 平衡二叉树.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/226. Invert Binary Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-              <folding>
-                <marker date="1551623054491" expanded="true" signature="372:451" ph="..." />
-                <marker date="1551623054491" expanded="true" signature="477:486" ph="..." />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/41 和为S的连续正数序列.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/647. Palindromic Substrings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-              <folding>
-                <marker date="1551711215460" expanded="true" signature="212:221" ph="..." />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/41 和为s的两个数字.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/94. Binary Tree Inorder Traversal.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="667">
-              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="43" />
+              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/238. Product of Array Except Self.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/283. Move Zeroes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="652">
+              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
               <folding>
-                <marker date="1551711899607" expanded="true" signature="214:223" ph="..." />
+                <marker date="1552396659162" expanded="true" signature="690:695" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/42 左旋转字符串.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/46. Permutations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/42 翻转单词顺序.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="32" />
-              <folding>
-                <marker date="1551793880982" expanded="true" signature="199:208" ph="..." />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/44 扑克牌顺子.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/347. Top K Frequent Elements.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="50" />
-              <folding>
-                <marker date="1551796993044" expanded="true" signature="201:210" ph="..." />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/40 数组中只出现一次的数字.py">
+        <entry file="file://$PROJECT_DIR$/37 两个链表的第一个公共结点.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-              <folding>
-                <marker date="1551707847372" expanded="true" signature="240:249" ph="..." />
-                <marker date="1551707847372" expanded="true" signature="1134:1489" ph="..." />
-                <marker date="1551707847372" expanded="true" signature="1519:1650" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/19 二叉树的镜像.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="77" selection-start-line="77" selection-end-line="90" selection-end-column="25" />
+            <state relative-caret-position="851">
+              <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -202,15 +184,30 @@
         <option value="$PROJECT_DIR$/41 和为s的两个数字.py" />
         <option value="$PROJECT_DIR$/42 左旋转字符串.py" />
         <option value="$PROJECT_DIR$/42 翻转单词顺序.py" />
+        <option value="$PROJECT_DIR$/45 孩子们的游戏(圆圈中最后剩下的数).py" />
         <option value="$PROJECT_DIR$/44 扑克牌顺子.py" />
+        <option value="$PROJECT_DIR$/n个筛子的点数.py" />
+        <option value="$PROJECT_DIR$/leetcode/338 counting bits.py" />
+        <option value="$PROJECT_DIR$/leetcode/104 Maximum Depth of Binary Tree.py" />
+        <option value="$PROJECT_DIR$/leetcode/101 Symmetric Tree.py" />
+        <option value="$PROJECT_DIR$/leetcode/406. Queue Reconstruction by Height.py" />
+        <option value="$PROJECT_DIR$/leetcode/617 mergeTrees.py" />
+        <option value="$PROJECT_DIR$/leetcode/01 two sum.py" />
+        <option value="$PROJECT_DIR$/leetcode/226. Invert Binary Tree.py" />
+        <option value="$PROJECT_DIR$/leetcode/647. Palindromic Substrings.py" />
+        <option value="$PROJECT_DIR$/leetcode/94. Binary Tree Inorder Traversal.py" />
+        <option value="$PROJECT_DIR$/leetcode/238. Product of Array Except Self.py" />
+        <option value="$PROJECT_DIR$/leetcode/283. Move Zeroes.py" />
+        <option value="$PROJECT_DIR$/leetcode/46. Permutations.py" />
+        <option value="$PROJECT_DIR$/leetcode/347. Top K Frequent Elements.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1227" />
-    <option name="y" value="433" />
-    <option name="width" value="1296" />
-    <option name="height" value="1378" />
+    <option name="x" value="1280" />
+    <option name="y" value="24" />
+    <option name="width" value="1280" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -232,6 +229,11 @@
               <item name="sword-to-offer-python" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sword-to-offer-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword-to-offer-python" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -241,7 +243,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/simon/code2019/sword-to-offer-python/33 把数组排成最小的数.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HUAWEIYUN/huawei_code_share-master" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -256,8 +258,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.44 扑克牌顺子">
-    <configuration name="41 和为S的连续正数序列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.347. Top K Frequent Elements">
+    <configuration name="238. Product of Array Except Self" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sword-to-offer-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,11 +267,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/41 和为S的连续正数序列.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/238. Product of Array Except Self.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="41 和为s的两个数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="338 counting bits" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sword-to-offer-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,11 +288,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/41 和为s的两个数字.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/338 counting bits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="347. Top K Frequent Elements" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sword-to-offer-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/347. Top K Frequent Elements.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,19 +386,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.41 和为S的连续正数序列" />
-      <item itemvalue="Python.41 和为s的两个数字" />
       <item itemvalue="Python.42 左旋转字符串" />
-      <item itemvalue="Python.42 翻转单词顺序" />
       <item itemvalue="Python.44 扑克牌顺子" />
+      <item itemvalue="Python.338 counting bits" />
+      <item itemvalue="Python.238. Product of Array Except Self" />
+      <item itemvalue="Python.347. Top K Frequent Elements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.347. Top K Frequent Elements" />
+        <item itemvalue="Python.238. Product of Array Except Self" />
+        <item itemvalue="Python.338 counting bits" />
         <item itemvalue="Python.44 扑克牌顺子" />
-        <item itemvalue="Python.42 翻转单词顺序" />
         <item itemvalue="Python.42 左旋转字符串" />
-        <item itemvalue="Python.41 和为s的两个数字" />
-        <item itemvalue="Python.41 和为S的连续正数序列" />
       </list>
     </recent_temporary>
   </component>
@@ -415,7 +438,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-6" width="2560" height="1446" extended-state="6" />
+    <frame x="-1" y="-11" width="2562" height="1452" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18786924" />
@@ -423,7 +446,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28366113" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2965204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30937973" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,9 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <marker date="1551087569460" expanded="true" signature="240:249" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -530,9 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" selection-start-line="7" selection-end-line="26" />
-          <folding>
-            <marker date="1551101913750" expanded="true" signature="206:215" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,10 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <marker date="1551105278011" expanded="true" signature="215:226" ph="..." />
-            <marker date="1551105278011" expanded="true" signature="950:959" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,9 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2139">
           <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
-          <folding>
-            <marker date="1551192869067" expanded="true" signature="215:224" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,16 +591,6 @@
     <entry file="file://$PROJECT_DIR$/learn_algo_draft.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/37 两个链表的第一个公共结点.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <marker date="1551232532175" expanded="true" signature="333:342" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn/quicksort_simple.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -605,10 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <marker date="1551518043050" expanded="true" signature="752:753" ph="..." />
-            <marker date="1551518043050" expanded="true" signature="1235:1268" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,32 +615,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/38 数字在排序数组中出现的次数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2208">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/39 二叉树的深度.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="920">
           <caret line="40" selection-start-line="40" selection-end-line="49" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/40 平衡二叉树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/41 和为S的连续正数序列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/41 和为s的两个数字.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/42 左旋转字符串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/42 翻转单词顺序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/44 扑克牌顺子.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding>
-            <marker date="1551621390892" expanded="true" signature="489:495" ph="..." />
-            <marker date="1551621390892" expanded="true" signature="523:532" ph="..." />
-            <marker date="1551621390892" expanded="true" signature="1252:1878" ph="..." />
+            <marker date="1551832777327" expanded="true" signature="201:210" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/38 数字在排序数组中出现的次数.py">
+    <entry file="file://$PROJECT_DIR$/23 二叉搜索树的后序遍历序列.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+        <state relative-caret-position="598">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n个筛子的点数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/338 counting bits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/104 Maximum Depth of Binary Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/101 Symmetric Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/45 孩子们的游戏(圆圈中最后剩下的数).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
-            <marker date="1551579055649" expanded="true" signature="210:219" ph="..." />
+            <marker date="1551797215135" expanded="true" signature="219:228" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/40 数组中只出现一次的数字.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+        <state relative-caret-position="1288">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
           <folding>
             <marker date="1551707847372" expanded="true" signature="240:249" ph="..." />
             <marker date="1551707847372" expanded="true" signature="1134:1489" ph="..." />
@@ -653,61 +731,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/40 平衡二叉树.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/406. Queue Reconstruction by Height.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <marker date="1551623054491" expanded="true" signature="372:451" ph="..." />
-            <marker date="1551623054491" expanded="true" signature="477:486" ph="..." />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/41 和为S的连续正数序列.py">
+    <entry file="file://$PROJECT_DIR$/37 两个链表的第一个公共结点.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding>
-            <marker date="1551711215460" expanded="true" signature="212:221" ph="..." />
-          </folding>
+        <state relative-caret-position="851">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/41 和为s的两个数字.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/617 mergeTrees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/01 two sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/226. Invert Binary Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/647. Palindromic Substrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/94. Binary Tree Inorder Traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
-          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="43" />
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/238. Product of Array Except Self.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/283. Move Zeroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
           <folding>
-            <marker date="1551711899607" expanded="true" signature="214:223" ph="..." />
+            <marker date="1552396659162" expanded="true" signature="690:695" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/42 左旋转字符串.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/46. Permutations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="276">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/42 翻转单词顺序.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/347. Top K Frequent Elements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <marker date="1551793880982" expanded="true" signature="199:208" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/44 扑克牌顺子.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="50" />
-          <folding>
-            <marker date="1551796993044" expanded="true" signature="201:210" ph="..." />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
