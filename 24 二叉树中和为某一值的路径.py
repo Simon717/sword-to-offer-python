@@ -37,6 +37,27 @@ class Solution:
         recFindPath(root, [], 0)
         return res
 
+"""
+在返回值的list中，数组长度大的数组靠前
+这个要求就是提示 使用 DFS 
+"""
+class Solution_:
+    # 返回二维列表，内部每个列表表示找到的路径
+    def FindPath(self, root, expectNumber):
+        res = []
+
+        def helper(root, path, target):
+            if not root:
+                return
+            if root.val == target and (not root.left and not root.right):
+                res.append([x.val for x in path])
+            helper(root.left, path + [root.left], target - root.val)
+            helper(root.right, path + [root.right], target - root.val)
+
+        helper(root, [root], expectNumber)
+        return res
+
+
 if __name__ == '__main__':
     pNode1 = TreeNode(10)
     pNode2 = TreeNode(5)
@@ -49,5 +70,5 @@ if __name__ == '__main__':
     pNode2.left = pNode4
     pNode2.right = pNode5
 
-    S = Solution()
+    S = Solution_()
     print(S.FindPath(pNode1, 22))
