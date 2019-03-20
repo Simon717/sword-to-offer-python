@@ -31,6 +31,11 @@
 #                 return  list(s).index(strlist[i])
 #         return -1
 
+"""
+非常简单的使用了hash表
+最后需要输出index 所以直接按照index顺序索引即可
+"""
+
 # -*- coding:utf-8 -*-
 class Solution:
     def FirstNotRepeatingChar(self, s):
@@ -38,20 +43,15 @@ class Solution:
         if not s:
             return -1
 
-        alphabet = {}
-        alist = list(s)
-        for key in alist:
-            if key not in alphabet.keys():
-                alphabet[key] = 0
-            alphabet[key] += 1
-        # for k, v in alphabet.items(): # 本地结果正确 线上结果不正确
-        #     if v == 1:
-        #         return alist.index(k)
-        for i in alist:
-            if alphabet[i] == 1:
+        dic = {}
+        for i in s:
+            if i not in dic.keys():
+                dic[i] = 0
+            dic[i] += 1
+        for i in range(len(s)):
+            if dic[s[i]] == 1:
                 return i
         return -1
-
 
 if __name__ == '__main__':
     test = 'google'

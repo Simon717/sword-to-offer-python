@@ -68,16 +68,15 @@ class Solution(object):
             return L == R
         return not root or isSym(root.left, root.right)
 
+    """
+    这个循环解 清晰明了
+    """
     def isSymmetric_Iter(self, root):
         queue = [root]
         while queue:
-            values = [i.val if i else None for i in queue]
+            values = [node.val if node else None for node in queue]
             if values != values[::-1]: return False
-
-            # 每一次刷新queue
-            # 迭代探索当前queue中的节点的节点
-            #  queue存放着当前层次的节点
-            queue = [child for i in queue if i      for child in (i.left, i.right)]
+            queue = [child for node in queue if node  for child in (node.left, node.right)]  # 迭代探索当前queue中的节点的孩子节点
         return True
 
     def isSymmetric_Iter0(self, root): # 使用队列实现二叉树的层级遍历
