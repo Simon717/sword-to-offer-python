@@ -16,7 +16,7 @@
 class Solution:
     # s, pattern都是字符串
     def match(self, s, pattern):
-        if not s or not pattern:
+        if not s or not pattern: # 00 01 10
             return False
         # 如果s和pattern匹配, 直接True
         if s == pattern:
@@ -60,6 +60,75 @@ class Solution:
             return True
         return False
 
+# -*- coding:utf-8 -*-
+"""
+通过率 96%
+剩下的超过递归深度
+"""
+class Solution_:
+    # s, pattern都是字符串
+    def match(self, s, pattern):
+        if not s and not  pattern: # 0 0
+            return True
+        if s and not pattern: # 1 0
+            return False
 
-s = Solution()
-print(s.match('aaa', 'a*a'))
+        if len(pattern) >= 2 and pattern[1] == '*':
+            if pattern[0] == '.':   # .*
+                return self.match(s, pattern[2:]) or self.match(s[1:], pattern)
+            else:  # a*
+                if s and pattern[0] == s[0]: # ab a*
+                    return self.match(s[1:], pattern) or self.match(s, pattern[2:]) # 替代0个a or 替代1个a
+                else: # bb a*
+                    return self.match(s, pattern[2:])
+        elif pattern[0] == '.':
+            if s:
+                return self.match(s[1:], pattern[1:])
+            else:
+                return False
+        else:
+            if s and pattern[0] == s[0]:
+                return self.match(s[1:], pattern[1:])
+            else:
+                return False
+
+"""
+牛客AC 
+
+ab a*
+1. 耗尽* 
+    相当于没使用 ab ''
+    抵消了一次 b ''
+2. 没有耗尽
+    b a*
+"""
+class Solution__:
+    def match(self, s, pattern):
+        if not s and not pattern: # 0 0
+            return True
+        if s and not pattern: # 1 0 没有模式只有字符 肯定无法完成匹配
+            return False
+
+        # 01  11
+        if len(pattern) >= 2 and pattern[1] == '*':
+            if s and (pattern[0] == s[0] or pattern[0] == '.'):
+                return self.match(s, pattern[2:]) or self.match(s[1:], pattern[2:]) or self.match(s[1:], pattern)
+            else:
+                return self.match(s, pattern[2:])
+        elif s and (pattern[0] == s[0] or pattern[0] == '.'):
+            return self.match(s[1:], pattern[1:])
+        else:
+            return False
+
+if __name__ == '__main__':
+    a = 'aba'
+    p = '.*'
+    solu = Solution__()
+    print(solu.match(a, p))
+
+
+
+#
+# if __name__ == '__main__':
+#     s = Solution()
+#     print(s.match('aaa', 'a*a'))

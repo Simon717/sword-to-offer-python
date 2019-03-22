@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48705de-c7eb-4c57-bac3-efd091e2cc2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/35 第一个只出现一次的字符.py" beforeDir="false" afterPath="$PROJECT_DIR$/35 第一个只出现一次的字符.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/40 平衡二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/40 平衡二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/101 Symmetric Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/101 Symmetric Tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/36 数组中的逆序对.py" beforeDir="false" afterPath="$PROJECT_DIR$/36 数组中的逆序对.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47 不用加减乘除做加法.py" beforeDir="false" afterPath="$PROJECT_DIR$/47 不用加减乘除做加法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/upload_github.sh" beforeDir="false" afterPath="$PROJECT_DIR$/upload_github.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/华为 蛇形字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/华为 蛇形字符串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/正则表达式匹配.py" beforeDir="false" afterPath="$PROJECT_DIR$/正则表达式匹配.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,53 +33,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="94" />
+          <entry key="py" value="99" />
           <entry key="sh" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="94" />
+          <entry key="Python" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="115" />
+          <entry key="Python Console" value="240" />
           <entry key="dummy" value="8" />
-          <entry key="py" value="17228" />
-          <entry key="sh" value="63" />
+          <entry key="py" value="21682" />
+          <entry key="sh" value="80" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="80" />
-          <entry key="Python" value="17343" />
+          <entry key="PLAIN_TEXT" value="97" />
+          <entry key="Python" value="21922" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/对称的二叉树.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="52" column="48" lean-forward="true" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/字符流中第一个不重复的字符.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/滑动窗口的最大值.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,17 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/47 不用加减乘除做加法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/35 第一个只出现一次的字符.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="966">
+              <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -110,26 +83,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/华为 蛇形字符串.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/upload_github.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="501">
+              <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+              <folding>
+                <marker date="1553235978162" expanded="true" signature="1991:4121" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/链表中环的入口结点.py">
+        <entry file="file://$PROJECT_DIR$/表示数值的字符串.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="60" column="37" lean-forward="true" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+            <state relative-caret-position="460">
+              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <folding>
+                <marker date="1553237804108" expanded="true" signature="203:212" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/正则表达式匹配.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+              <folding>
+                <element signature="e#628#659#0" />
+                <element signature="e#1045#1086#0" />
+                <element signature="e#1400#1438#0" />
+                <marker date="1553245171356" expanded="true" signature="3332:3977" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/36 数组中的逆序对.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1007">
+              <caret line="238" column="37" lean-forward="true" selection-start-line="238" selection-start-column="37" selection-end-line="238" selection-end-column="37" />
+              <folding>
+                <marker date="1553221950506" expanded="true" signature="2402:2931" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,10 +141,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据流中的中位数.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+              <folding>
+                <marker date="1553135559640" expanded="true" signature="559:620" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/upload_github.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/求1+2+3+...+n.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="460">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -172,9 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/42 左旋转字符串.py" />
-        <option value="$PROJECT_DIR$/42 翻转单词顺序.py" />
-        <option value="$PROJECT_DIR$/44 扑克牌顺子.py" />
         <option value="$PROJECT_DIR$/n个筛子的点数.py" />
         <option value="$PROJECT_DIR$/leetcode/338 counting bits.py" />
         <option value="$PROJECT_DIR$/leetcode/104 Maximum Depth of Binary Tree.py" />
@@ -201,7 +216,6 @@
         <option value="$PROJECT_DIR$/csnote-leetcode/双指针/two_sum.py" />
         <option value="$PROJECT_DIR$/数组中重复的数字.py" />
         <option value="$PROJECT_DIR$/构建乘积数组.py" />
-        <option value="$PROJECT_DIR$/正则表达式匹配.py" />
         <option value="$PROJECT_DIR$/45 孩子们的游戏(圆圈中最后剩下的数).py" />
         <option value="$PROJECT_DIR$/二叉搜索树的第k个结点.py" />
         <option value="$PROJECT_DIR$/40 平衡二叉树.py" />
@@ -218,19 +232,23 @@
         <option value="$PROJECT_DIR$/求1+2+3+...+n.py" />
         <option value="$PROJECT_DIR$/对称的二叉树.py" />
         <option value="$PROJECT_DIR$/字符流中第一个不重复的字符.py" />
-        <option value="$PROJECT_DIR$/47 不用加减乘除做加法.py" />
         <option value="$PROJECT_DIR$/35 第一个只出现一次的字符.py" />
-        <option value="$PROJECT_DIR$/华为 蛇形字符串.py" />
         <option value="$PROJECT_DIR$/滑动窗口的最大值.py" />
+        <option value="$PROJECT_DIR$/数据流中的中位数.py" />
+        <option value="$PROJECT_DIR$/47 不用加减乘除做加法.py" />
+        <option value="$PROJECT_DIR$/36 数组中的逆序对.py" />
+        <option value="$PROJECT_DIR$/华为 蛇形字符串.py" />
+        <option value="$PROJECT_DIR$/表示数值的字符串.py" />
+        <option value="$PROJECT_DIR$/正则表达式匹配.py" />
         <option value="$PROJECT_DIR$/upload_github.sh" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="883" />
-    <option name="y" value="170" />
-    <option name="width" value="1278" />
-    <option name="height" value="1380" />
+    <option name="x" value="278" />
+    <option name="y" value="31" />
+    <option name="width" value="1276" />
+    <option name="height" value="1344" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -298,8 +316,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.滑动窗口的最大值">
-    <configuration name="序列化二叉树" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.正则表达式匹配">
+    <configuration name="华为 蛇形字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sword-to-offer-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,7 +329,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/序列化二叉树.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/华为 蛇形字符串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="表示数值的字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sword-to-offer-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/表示数值的字符串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,7 +380,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="矩阵中的路径" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="正则表达式匹配" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sword-to-offer-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -353,28 +392,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/矩阵中的路径.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="链表中环的入口结点" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sword-to-offer-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/链表中环的入口结点.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/正则表达式匹配.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -405,19 +423,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.序列化二叉树" />
-      <item itemvalue="Python.矩阵中的路径" />
-      <item itemvalue="Python.链表中环的入口结点" />
       <item itemvalue="Python.求1+2+3+...+n" />
       <item itemvalue="Python.滑动窗口的最大值" />
+      <item itemvalue="Python.华为 蛇形字符串" />
+      <item itemvalue="Python.表示数值的字符串" />
+      <item itemvalue="Python.正则表达式匹配" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.正则表达式匹配" />
+        <item itemvalue="Python.表示数值的字符串" />
+        <item itemvalue="Python.华为 蛇形字符串" />
         <item itemvalue="Python.滑动窗口的最大值" />
         <item itemvalue="Python.求1+2+3+...+n" />
-        <item itemvalue="Python.链表中环的入口结点" />
-        <item itemvalue="Python.矩阵中的路径" />
-        <item itemvalue="Python.序列化二叉树" />
       </list>
     </recent_temporary>
   </component>
@@ -457,23 +475,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="2562" height="1452" extended-state="6" />
+    <frame x="0" y="-6" width="2560" height="1446" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18398437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1713273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21593447" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30900967" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16717096" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21255673" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.1762481" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.16157855" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.16944024" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -517,6 +535,31 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>i&lt;len(s) and s[i] == '.'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s[i]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>upper[p1].lower()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>upper[p1].lower</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>upper[p1].lower in lower</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>p2.next</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -536,45 +579,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>self.check(i, path_idx[-1], cols)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>elf.check(i, path_idx[-1], cols)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>tinput</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/283. Move Zeroes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/347. Top K Frequent Elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/22. Generate Parentheses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/538. Convert BST to Greater Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -673,13 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则表达式匹配.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -866,20 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/删除链表中重复的结点.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/求1+2+3+...+n.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/对称的二叉树.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -891,13 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/47 不用加减乘除做加法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -915,10 +894,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/华为 蛇形字符串.py">
+    <entry file="file://$PROJECT_DIR$/求1+2+3+...+n.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流中的中位数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <marker date="1553135559640" expanded="true" signature="559:620" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/47 不用加减乘除做加法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/36 数组中的逆序对.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="238" column="37" lean-forward="true" selection-start-line="238" selection-start-column="37" selection-end-line="238" selection-end-column="37" />
+          <folding>
+            <marker date="1553221950506" expanded="true" signature="2402:2931" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/删除链表中重复的结点.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/华为 蛇形字符串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+          <folding>
+            <marker date="1553235978162" expanded="true" signature="1991:4121" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/表示数值的字符串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <marker date="1553237804108" expanded="true" signature="203:212" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正则表达式匹配.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+          <folding>
+            <element signature="e#628#659#0" />
+            <element signature="e#1045#1086#0" />
+            <element signature="e#1400#1438#0" />
+            <marker date="1553245171356" expanded="true" signature="3332:3977" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

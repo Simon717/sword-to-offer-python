@@ -12,7 +12,7 @@ num1 表示不考虑进位时的加法结果
 
 python中整数是无限位宽
 所以这里需要将结果限制到32位整数 通过 & 0xFFFFFFFF实现
-最终判断这是一个正数还是负数 如果是负数需要 - 2^32=4294967296
+最终判断这是一个正数还是负数 如果是 负数需要 - 2^32=4294967296
 
 简单来说这道题就不要用Python来做
 
@@ -43,4 +43,4 @@ class Solution:
             sum = num1 ^ num2
             num2 = (num1 & num2) << 1
             num1 = sum & 0xFFFFFFFF
-        return num1 if not num1 >> 31 else num1 - 4294967296 # 判断符号位
+        return num1 if not num1 >> 31 else num1 - 2**32 # 判断符号位

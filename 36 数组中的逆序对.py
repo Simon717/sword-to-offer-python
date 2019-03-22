@@ -24,6 +24,10 @@ class Solution0:
             data.remove(x)
         return cnt
 
+"""
+由于内存问题导致代码只能通过50%
+"""
+
 # -*- coding:utf-8 -*-
 class Solution1:
     def InversePairs(self, data):
@@ -76,6 +80,8 @@ class Solution1:
 
 """
 始终只能通过50%
+
+这段代码最简单易懂
 """
 
 class Solution01:
@@ -87,13 +93,34 @@ class Solution01:
         self.mergeSort(data)
         return self.cnt % 10000000007
 
+    # def mergeSort(self, data):
+    #     if len(data) <= 1:
+    #         return data
+    #     mid = len(data) // 2
+    #     left = self.mergeSort(data[:mid])
+    #     right = self.mergeSort(data[mid:])
+    #     return self.merge(left, right)
+
     def mergeSort(self, data):
         if len(data) <= 1:
             return data
         mid = len(data) // 2
-        left = self.mergeSort(data[:mid])
-        right = self.mergeSort(data[mid:])
-        return self.merge(left, right)
+        a = self.mergeSort(data[:mid])
+        b = self.mergeSort(data[mid:])
+
+        i, j = 0, 0
+        res = []
+        while i < len(a) and j < len(b):
+            if a[i] <= b[j]:  # 没有逆序对
+                res.append(a[i])
+                i += 1
+            else:  # 存在逆序对
+                res.append(b[j])
+                j += 1
+                self.cnt += len(a) - i
+        res += a[i:]  # 不会越界吗
+        res += b[j:]
+        return res
 
     def merge(self, a, b):
         i, j = 0, 0
@@ -139,6 +166,92 @@ class Solution0:
                 k += 1
                 j += 1
         return IN % 10000000007
+
+
+Python
+
+
+# -*- coding:utf-8 -*-
+class Solution:
+    def InversePairs(self, data):
+        # write code here
+        if not data:
+            return 0
+        temp = [i for i in data]
+        return self.mergeSort(temp, data, 0, len(data) - 1) % 1000000007
+
+    def mergeSort(self, temp, data, low, high):
+        if low >= high:
+            temp[low] = data[low]
+            return 0
+        mid = (low + high) / 2
+        left = self.mergeSort(data, temp, low, mid)
+        right = self.mergeSort(data, temp, mid + 1, high)
+
+        count = 0
+        i = low
+        j = mid + 1
+        index = low
+        while i <= mid and j <= high:
+            if data[i] <= data[j]:
+                temp[index] = data[i]
+                i += 1
+            else:
+                temp[index] = data[j]
+                count += mid - i + 1
+                j += 1
+            index += 1
+        while i <= mid:
+            temp[index] = data[i]
+            i += 1
+            index += 1
+        while j <= high:
+            temp[index] = data[j]
+            j += 1
+            index += 1
+        return count + left + right
+
+
+
+# -*- coding:utf-8 -*-
+class Solution__:
+    def InversePairs(self, data):
+        # write code here
+        if not data:
+            return 0
+        temp = data[:]
+        return self.mergeSort(temp, data, 0, len(data) - 1) % 1000000007
+
+    def mergeSort(self, temp, data, low, high):
+        if low >= high:
+            temp[low] = data[low]
+            return 0
+        mid = (low + high) / 2
+        left = self.mergeSort(data, temp, low, mid)
+        right = self.mergeSort(data, temp, mid + 1, high)
+
+        count = 0
+        i = low
+        j = mid + 1
+        index = low
+        while i <= mid and j <= high:
+            if data[i] <= data[j]:
+                temp[index] = data[i]
+                i += 1
+            else:
+                temp[index] = data[j]
+                count += mid - i + 1
+                j += 1
+            index += 1
+        while i <= mid:
+            temp[index] = data[i]
+            i += 1
+            index += 1
+        while j <= high:
+            temp[index] = data[j]
+            j += 1
+            index += 1
+        return count + left + right
 
 if __name__ == '__main__':
     test = [1,2,3,4,5,6,0]
