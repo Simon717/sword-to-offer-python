@@ -32,3 +32,43 @@ class Solution:
             res += num % 10
             num = num // 10
         return res
+
+
+"""
+使用hash表 记录各个点是否访问过 比数组使用起来简单
+尽量在函数内定义变量 + 使用全局变量 减少参数在函数之间的传递
+"""
+class Solution_:
+    def movingCount(self, threshold, rows, cols):
+        # write code here
+        if rows < 1 or cols < 1 or threshold <= 0:
+            return 0
+
+        self.hash = {}
+        self.cnt = 0
+        def DFS(i, j):
+            if check(i, j):
+                self.cnt += 1
+                self.hash[(i, j)] = 1
+                DFS(i - 1, j)
+                DFS(i + 1, j)
+                DFS(i, j + 1)
+                DFS(i, j - 1)
+
+        def check(i, j):
+            def getSum(num):
+                res = 0
+                while num:
+                    res += num % 10
+                    num = num // 10
+                return res
+
+            return 0 <= i < rows and 0 <= j < cols and (i, j) not in self.hash and getSum(i) + getSum(j) <= threshold
+
+        DFS(0, 0)
+        return self.cnt
+
+
+
+solu = Solution_()
+print(solu.movingCount(5, 10, 10))

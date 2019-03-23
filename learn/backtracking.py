@@ -13,14 +13,14 @@ def display(a):
 
 
 def backtracking(n, m, check, handle):
-    def dfs(a, k): # a 当前已经确定的解 k 当前需要解决的位置
+    def dfs(res, k): # a 当前已经确定的解 k 当前需要解决的位置
         for i in range(n): # 相当于开辟了n个分支 在每一个分支底下进行递归
-            a[k] = i       # 第一个位置可能填入所有的可能值 继续向下递归
-            if check(a, k):     # 检查当前解是否合法
+            res[k] = i       # 第一个位置可能填入所有的可能值 继续向下递归
+            if check(res, k):     # 检查当前解是否合法
                 if k == m - 1:  # 所有位置处理完毕
-                    handle(a)
+                    handle(res)
                 else:
-                    dfs(a, k + 1) # 处理下个位置
+                    dfs(res, k + 1) # 处理下个位置
 
     a = [0] * m
     dfs(a, 0)

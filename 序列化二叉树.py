@@ -17,7 +17,7 @@ class TreeNode:
 12 输出 1,2,#,#,#
 所有的叶子节点和只有一个孩子的节点都用#表示
 
-所以此时中序遍历序列化二叉树非常简单
+所以此时前序遍历序列化二叉树非常简单
 """
 class Solution:
     def Serialize(self, root):
