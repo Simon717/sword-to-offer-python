@@ -59,35 +59,7 @@ class Solution__(object):
         return maxLen
 
 
-"""
-DP
 
-"""
-# dp[i] - the length of the longest substring ended at s[i] without repeating characters
-# postdict - to record each character's last position in the input string s
-# How to obtain dp[i] from dp[i-1] -
-#   1) if s[i] not in postdict - s[i] apparently different from s[i-1], so dp[i] = dp[i-1] + 1
-#   2) if s[i] already in postdict - for example s[i] = 'b', s[i-1] = 'a', from postdict we know
-#       the latest b position is j, and s[j+1] till s[i-1] will not be 'b'. So dp[i] = i - posdict[s[i]]? Wait, if there is
-#       a 2nd 'a' between two 'b'? In this case, dp[i] = dp[i-1] + 1. So we have min() here.
-#       Example: b***...***ab
-# Finally, we need update postdict with s[i] position
-class Solution_DP(object):
-    def longestPalindrome(self, s):
-        if not s:
-            return 0
-        dp = [1] * len(s)
-        posdict = {s[0]: 0}
-        maxLen = 1
-        for i in range(1, len(s)):
-            if s[i] in posdict:
-                dp[i] = min(dp[i - 1] + 1, i - posdict[s[i]])
-            else:
-                dp[i] = dp[i - 1] + 1
-            posdict[s[i]] = i
-            if maxLen < dp[i]:
-                maxLen = dp[i]
-        return maxLen
 
 """
 双指针 + set

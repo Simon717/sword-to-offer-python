@@ -37,27 +37,66 @@ class Solution_fast(object):
         :type nums: List[int]
         :rtype: int
         """
-        max_sum = nums[0]
+        res = nums[0]
         curSum = 0
-        for index, val in enumerate(nums[:]):
+        for val in nums:
             curSum = val + curSum
-            if curSum > max_sum:
-                max_sum = curSum
+            if curSum > res:
+                res = curSum
             if curSum < 0:
                 curSum = 0
-        return max_sum
+        return res
+"""
+下面两种解法是通解 动态规划
+子问题定义为 F(A, i) 表示为A[0:i]（前闭后闭）中包含A[i]的最优解
+最终问题（A[0:N]中的最优解）的解是子问题解中的最大值
 
-class Solution0:
-    # @param A, a list of integers
-    # @return an integer
-    # 6:57
-    def maxSubArray(self, A):
-        if not A:
-            return 0
+"""
+class Solution_DP(object):
+    def maxSubArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        N = len(nums)
+        DP = [nums[0]] * N # DP[i] 表示nums[:i+1]中包含nums[i]的最优解
+        for i in range(1, N):
+            DP[i] = max(DP[i - 1] + nums[i], nums[i])
+        return max(DP)
 
-        curSum = maxSum = A[0]
-        for num in A[1:]:
-            curSum = max(num, curSum + num)
-            maxSum = max(maxSum, curSum)
+"""
+maxSubArray(A, i) = A[i] + maxSubArray(A, i - 1) if maxSubArray(A, i - 1) else 0; 
+"""
+class Solution_DP_(object):
+    def maxSubArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        res = maxEndingHere = nums[0]
+        for i in range(1, len(nums)):
+            maxEndingHere = max(maxEndingHere + nums[i], nums[i]) # maxEnd 定义为包含当前元素的最优解
+            res = max(res, maxEndingHere)
+        return res
 
-        return maxSum
+    """
+    注意这种连续子序列的优化问题
+    遍历
+    第一步：找到包含当前节点的局部最优解 maxEndHere
+    第二步：刷新全局最优解 res
+    """
+    def maxLenStr(self, s):
+        if not s: return ''
+        res = maxEndHere = s[0]
+        for i in range(1, len(s)):
+            maxEndHere = (maxEndHere if ord(maxEndHere[-1]) + 1 == ord(s[i]) else '') + s[i] # 这里的括号必不可少
+            res = maxEndHere if len(maxEndHere) > len(res) else res
+        return res
+
+
+if __name__ == '__main__':
+    test = [-2,1,-3,4,-1,2,1,-5,4]
+    teststr = 'abcefghkk'
+    solu = Solution_DP_()
+    # print(solu.maxSubArray(test))
+    print(solu.maxLenStr(teststr))

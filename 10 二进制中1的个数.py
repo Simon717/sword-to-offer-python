@@ -18,10 +18,12 @@ class Solution:
     #     return count
     #
     def NumberOf1(self, n):
-        n = n & 0xffffffff if n < 0 else n
+        # n = n & 0xffffffff if n < 0 else n
         cnt = 0
-        while n:
+        # while n:
+        for i in range(3):
             n = n & (n-1)
+            print(bin(n))
             cnt += 1
         return cnt
 
@@ -29,4 +31,4 @@ class Solution:
 
 if __name__ == '__main__':
     solu = Solution()
-    print(solu.NumberOf1(-6))
+    print(solu.NumberOf1(-1))

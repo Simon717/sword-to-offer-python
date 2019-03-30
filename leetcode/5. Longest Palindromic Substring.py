@@ -11,7 +11,7 @@ DP解
 class Solution_DP(object):
     def longestPalindrome(self, s):
         n = len(s)
-        maxStr = '1'
+        maxStr = ''
         DP = [[0]*n for _ in range(n)] # 这么创建二维list 存放 的是实值不是引用
         for i in range(n): # 终点
             for j in range(0, i+1): # 起点
@@ -20,7 +20,6 @@ class Solution_DP(object):
                 if DP[j][i] and i - j + 1 > len(maxStr):
                     maxStr = s[j:i+1]
         return maxStr
-
 
 """
 中心拓展法
