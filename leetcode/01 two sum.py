@@ -30,3 +30,22 @@ class Solution(object):
             if num in dic:
                 return dic[num], i
             dic[target-num] = i
+
+
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+
+        dic = {}
+
+        for i, n in enumerate(nums):
+            if target - n in dic:
+                return [i, dic[target-n]]
+            dic[n] = i
+        return [-1, -1]
+
+

@@ -27,4 +27,4 @@ class Solution:
 
 if __name__ == '__main__':
     solu = Solution()
-    print(solu.Power(2,-2))
+    print(solu.Power(0,-2))

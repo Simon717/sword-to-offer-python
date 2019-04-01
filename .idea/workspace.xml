@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48705de-c7eb-4c57-bac3-efd091e2cc2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10 二进制中1的个数.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 二进制中1的个数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/22. Generate Parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/22. Generate Parentheses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/3. Longest Substring Without Repeating Characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/3. Longest Substring Without Repeating Characters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/46. Permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/46. Permutations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/5. Longest Palindromic Substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/5. Longest Palindromic Substring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/53. Maximum Subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/53. Maximum Subarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 数值的整数次方.py" beforeDir="false" afterPath="$PROJECT_DIR$/11 数值的整数次方.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/32 整数中1出现的次数（从1到n整数中1出现的次数）.py" beforeDir="false" afterPath="$PROJECT_DIR$/32 整数中1出现的次数（从1到n整数中1出现的次数）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/34 丑数.py" beforeDir="false" afterPath="$PROJECT_DIR$/34 丑数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/01 two sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/01 two sum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,21 +33,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="151" />
-          <entry key="sh" value="2" />
+          <entry key="py" value="174" />
+          <entry key="sh" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="151" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="458" />
           <entry key="dummy" value="8" />
-          <entry key="py" value="41415" />
+          <entry key="py" value="47117" />
           <entry key="sh" value="92" />
           <entry key="txt" value="9" />
         </counts>
@@ -59,7 +55,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="109" />
-          <entry key="Python" value="41873" />
+          <entry key="Python" value="47575" />
         </counts>
       </usages-collector>
     </session>
@@ -67,46 +63,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/494. Target Sum.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/200. Number of Islands.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="46">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/394. Decode String.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/208. Implement Trie (Prefix Tree).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="77" column="3" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
+            <state relative-caret-position="483">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/322. Coin Change.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/236. Lowest Common Ancestor of a Binary Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            <state relative-caret-position="391">
+              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10 二进制中1的个数.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/279. Perfect Squares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="437">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/560. Subarray Sum Equals K.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="851">
+              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/114. Flatten Binary Tree to Linked List.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <marker date="1554015549820" expanded="true" signature="757:758" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/139. Word Break.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="33" />
+              <folding>
+                <marker date="1554034336959" expanded="true" signature="1235:1241" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/148. Sort List.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.py">
+        <entry file="file://$PROJECT_DIR$/32 整数中1出现的次数（从1到n整数中1出现的次数）.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="253">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/19. Remove Nth Node From End of List.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -136,21 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/35 第一个只出现一次的字符.py" />
-        <option value="$PROJECT_DIR$/滑动窗口的最大值.py" />
-        <option value="$PROJECT_DIR$/数据流中的中位数.py" />
-        <option value="$PROJECT_DIR$/47 不用加减乘除做加法.py" />
-        <option value="$PROJECT_DIR$/36 数组中的逆序对.py" />
-        <option value="$PROJECT_DIR$/华为 蛇形字符串.py" />
-        <option value="$PROJECT_DIR$/表示数值的字符串.py" />
-        <option value="$PROJECT_DIR$/正则表达式匹配.py" />
-        <option value="$PROJECT_DIR$/序列化二叉树.py" />
-        <option value="$PROJECT_DIR$/learn/backtracking.py" />
-        <option value="$PROJECT_DIR$/机器人的运动范围.py" />
-        <option value="$PROJECT_DIR$/矩阵中的路径.py" />
-        <option value="$PROJECT_DIR$/upload_github.sh" />
-        <option value="$PROJECT_DIR$/leetcode/3. Longest Substring Without Repeating Characters.py" />
-        <option value="$PROJECT_DIR$/leetcode/5. Longest Palindromic Substring.py" />
         <option value="$PROJECT_DIR$/leetcode/49. Group Anagrams.py" />
         <option value="$PROJECT_DIR$/leetcode/17. Letter Combinations of a Phone Number.py" />
         <option value="$PROJECT_DIR$/leetcode/20. Valid Parentheses.py" />
@@ -187,14 +219,28 @@
         <option value="$PROJECT_DIR$/leetcode/322. Coin Change.py" />
         <option value="$PROJECT_DIR$/10 二进制中1的个数.py" />
         <option value="$PROJECT_DIR$/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.py" />
+        <option value="$PROJECT_DIR$/leetcode/01 two sum.py" />
+        <option value="$PROJECT_DIR$/leetcode/75. Sort Colors.py" />
+        <option value="$PROJECT_DIR$/leetcode/114. Flatten Binary Tree to Linked List.py" />
+        <option value="$PROJECT_DIR$/34 丑数.py" />
+        <option value="$PROJECT_DIR$/leetcode/279. Perfect Squares.py" />
+        <option value="$PROJECT_DIR$/leetcode/200. Number of Islands.py" />
+        <option value="$PROJECT_DIR$/leetcode/208. Implement Trie (Prefix Tree).py" />
+        <option value="$PROJECT_DIR$/leetcode/236. Lowest Common Ancestor of a Binary Tree.py" />
+        <option value="$PROJECT_DIR$/leetcode/56. Merge Intervals.py" />
+        <option value="$PROJECT_DIR$/leetcode/139. Word Break.py" />
+        <option value="$PROJECT_DIR$/11 数值的整数次方.py" />
+        <option value="$PROJECT_DIR$/leetcode/148. Sort List.py" />
+        <option value="$PROJECT_DIR$/leetcode/560. Subarray Sum Equals K.py" />
+        <option value="$PROJECT_DIR$/leetcode/19. Remove Nth Node From End of List.py" />
+        <option value="$PROJECT_DIR$/32 整数中1出现的次数（从1到n整数中1出现的次数）.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="929" />
-    <option name="y" value="98" />
-    <option name="width" value="1292" />
-    <option name="height" value="1306" />
+    <option name="y" value="24" />
+    <option name="width" value="1280" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -296,8 +342,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.309. Best Time to Buy and Sell Stock with Cooldown">
-    <configuration name="10 二进制中1的个数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.32 整数中1出现的次数（从1到n整数中1出现的次数）">
+    <configuration name="11 数值的整数次方" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sword-to-offer-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,7 +355,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10 二进制中1的个数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11 数值的整数次方.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,7 +364,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="309. Best Time to Buy and Sell Stock with Cooldown" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="139. Word Break" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sword-to-offer-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -330,7 +376,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/139. Word Break.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,7 +385,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="394. Decode String" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="200. Number of Islands" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sword-to-offer-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,7 +397,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/394. Decode String.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/200. Number of Islands.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -360,7 +406,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="416. Partition Equal Subset Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="32 整数中1出现的次数（从1到n整数中1出现的次数）" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sword-to-offer-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32 整数中1出现的次数（从1到n整数中1出现的次数）.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="56. Merge Intervals" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sword-to-offer-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -372,28 +439,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/416. Partition Equal Subset Sum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="494. Target Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sword-to-offer-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/494. Target Sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/56. Merge Intervals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -403,19 +449,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.416. Partition Equal Subset Sum" />
-      <item itemvalue="Python.494. Target Sum" />
-      <item itemvalue="Python.394. Decode String" />
-      <item itemvalue="Python.10 二进制中1的个数" />
-      <item itemvalue="Python.309. Best Time to Buy and Sell Stock with Cooldown" />
+      <item itemvalue="Python.11 数值的整数次方" />
+      <item itemvalue="Python.200. Number of Islands" />
+      <item itemvalue="Python.56. Merge Intervals" />
+      <item itemvalue="Python.139. Word Break" />
+      <item itemvalue="Python.32 整数中1出现的次数（从1到n整数中1出现的次数）" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.309. Best Time to Buy and Sell Stock with Cooldown" />
-        <item itemvalue="Python.10 二进制中1的个数" />
-        <item itemvalue="Python.394. Decode String" />
-        <item itemvalue="Python.494. Target Sum" />
-        <item itemvalue="Python.416. Partition Equal Subset Sum" />
+        <item itemvalue="Python.32 整数中1出现的次数（从1到n整数中1出现的次数）" />
+        <item itemvalue="Python.11 数值的整数次方" />
+        <item itemvalue="Python.139. Word Break" />
+        <item itemvalue="Python.56. Merge Intervals" />
+        <item itemvalue="Python.200. Number of Islands" />
       </list>
     </recent_temporary>
   </component>
@@ -455,15 +501,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="2562" height="1452" extended-state="6" />
+    <frame x="0" y="-6" width="2560" height="1446" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.128397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15990548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49980307" visible="true" weight="0.17549168" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49980307" visible="true" weight="0.24508321" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21104388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -565,125 +611,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/序列化二叉树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload_github.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据流中的中位数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn/backtracking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="132" column="30" lean-forward="true" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器人的运动范围.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="40" selection-start-line="40" selection-end-line="68" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/21. Merge Two Sorted Lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1016">
-          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/3. Longest Substring Without Repeating Characters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/5. Longest Palindromic Substring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1296890235/_collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/448. Find All Numbers Disappeared in an Array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/121. Best Time to Buy and Sell Stock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/572. Subtree of Another Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/53. Maximum Subarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/49. Group Anagrams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/17. Letter Combinations of a Phone Number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/46. Permutations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/20. Valid Parentheses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/198. House Robber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -817,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/64. Minimum Path Sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/96. Unique Binary Search Trees.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -835,13 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/494. Target Sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -863,13 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1115">
           <caret line="137" column="45" lean-forward="true" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/416. Partition Equal Subset Sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1046">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
@@ -921,10 +827,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/upload_github.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/64. Minimum Path Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/53. Maximum Subarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/494. Target Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/416. Partition Equal Subset Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/01 two sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/34 丑数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11 数值的整数次方.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/56. Merge Intervals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/75. Sort Colors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/114. Flatten Binary Tree to Linked List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <marker date="1554015549820" expanded="true" signature="757:758" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/139. Word Break.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <marker date="1554034336959" expanded="true" signature="1235:1241" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/148. Sort List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/200. Number of Islands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/208. Implement Trie (Prefix Tree).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/236. Lowest Common Ancestor of a Binary Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/279. Perfect Squares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/560. Subarray Sum Equals K.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/19. Remove Nth Node From End of List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/32 整数中1出现的次数（从1到n整数中1出现的次数）.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
