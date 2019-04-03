@@ -73,4 +73,4 @@ class Solution:
 if __name__ == '__main__':
     testArr = [1,2,3,4]
     solu = Solution()
-    print(solu.reOrderArray2(testArr))
+    print(solu.reOrderArray(testArr))

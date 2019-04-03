@@ -6,37 +6,29 @@
    date：          2019-02-13
 """
 # -*- coding:utf-8 -*-
-"""
-运行时间：935ms
 
-占用内存：5624k
-"""
 
-class Solution:
+class Solution(object):
     def minNumberInRotateArray(self, rotateArray):
-        # write code here
-        if len(rotateArray) == 0:
-            return
+        """
+        :type rotateArray: List[int]
+        :rtype: int
+        """
+        l, r = 0, len(rotateArray) - 1
+        while l <= r:
+            mid = l + ((r - l) >> 1)
+            if rotateArray[mid] < rotateArray[mid - 1]: # 边界条件 对于数组只有一个数字的情况 mid - 1 = - 1 == [0]
+                return rotateArray[mid]
 
-        N = len(rotateArray)
-        stt, end = 0, N-1
-        if rotateArray[stt]<rotateArray[end]:
-            return rotateArray[stt]
-        else:
-            while end-stt>1:
-                mid = (stt+end)//2
-                if rotateArray[mid] <= rotateArray[end]:
-                    end = mid
-                elif rotateArray[mid] >= rotateArray[stt]:
-                    stt = mid
-                elif rotateArray[mid]==rotateArray[stt]==rotateArray[end]:
-                    minVal = rotateArray[stt]
-                    for item in rotateArray[stt:end+1]:
-                        if item < minVal:
-                            minVal = item
-                    return minVal
+            elif rotateArray[mid] < rotateArray[l]:
+                r = mid - 1
+            elif rotateArray[mid] > rotateArray[r]:
+                l = mid + 1
+            else:
+                return rotateArray[l]
+
 
 if __name__ == '__main__':
-    testArr = [3,4,5,1,2]
+    testArr = [1]
     solu = Solution()
     print(solu.minNumberInRotateArray(testArr))

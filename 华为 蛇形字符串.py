@@ -144,11 +144,16 @@ class Solution:
         return
 
 
+"""
+
+"""
 
 
-# test = 'Aa'
-# test = 'OoPpBCccbAa'
-test = 'SxxxsrR*AaAaBbSsSs'
-solu1 = Solution()
-print(solu1.she(test))
+if __name__ == '__main__':
+
+    # test = 'Aa'
+    # test = 'OoPpBCccbAa'
+    test = 'SxxxsrR*AaAaBbSsSs'
+    solu1 = Solution()
+    print(solu1.she(test))
 
