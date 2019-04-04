@@ -22,8 +22,6 @@ else:
     import sys
     lines = sys.stdin.readlines().strip()
 
-res = []
-
 valid = []
 invalid = []
 for line in lines:
