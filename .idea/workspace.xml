@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48705de-c7eb-4c57-bac3-efd091e2cc2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/华为 蛇形字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/华为 蛇形字符串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,21 +30,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="196" />
+          <entry key="py" value="197" />
           <entry key="sh" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="196" />
+          <entry key="Python" value="197" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="540" />
+          <entry key="Python Console" value="567" />
           <entry key="dummy" value="19" />
-          <entry key="py" value="56280" />
+          <entry key="py" value="56876" />
           <entry key="sh" value="92" />
           <entry key="txt" value="9" />
         </counts>
@@ -52,7 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="120" />
-          <entry key="Python" value="56820" />
+          <entry key="Python" value="57443" />
         </counts>
       </usages-collector>
     </session>
@@ -101,19 +101,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/华为机试.py">
+        <entry file="file://$PROJECT_DIR$/华为第一题.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+            <state relative-caret-position="391">
+              <caret line="17" column="3" selection-start-line="13" selection-end-line="27" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/华为第一题.py">
+        <entry file="file://$PROJECT_DIR$/华为0403.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="848">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="871">
+              <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -121,26 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1296890235/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="5012" column="8" selection-start-line="5012" selection-start-column="8" selection-end-line="5012" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/华为字符串.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/华为aaa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="305">
+              <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -182,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/337. House Robber III.py" />
         <option value="$PROJECT_DIR$/leetcode/102. Binary Tree Level Order Traversal.py" />
         <option value="$PROJECT_DIR$/leetcode/48. Rotate Image.py" />
         <option value="$PROJECT_DIR$/leetcode/39. Combination Sum.py" />
@@ -233,6 +214,7 @@
         <option value="$PROJECT_DIR$/华为字符串.py" />
         <option value="$PROJECT_DIR$/华为机试.py" />
         <option value="$PROJECT_DIR$/华为第一题.py" />
+        <option value="$PROJECT_DIR$/华为0403.py" />
       </list>
     </option>
   </component>
@@ -336,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.华为第一题">
+  <component name="RunManager" selected="Python.华为0403">
     <configuration name="华为 蛇形字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sword-to-offer-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,6 +353,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/华为蜜蜂.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="华为0403" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sword-to-offer-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/华为0403.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -421,41 +424,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="79. Word Search" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sword-to-offer-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/79. Word Search.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.79. Word Search" />
       <item itemvalue="Python.华为蜜蜂" />
       <item itemvalue="Python.华为 蛇形字符串" />
       <item itemvalue="Python.华为机试" />
       <item itemvalue="Python.华为第一题" />
+      <item itemvalue="Python.华为0403" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.华为0403" />
         <item itemvalue="Python.华为第一题" />
         <item itemvalue="Python.华为机试" />
         <item itemvalue="Python.华为 蛇形字符串" />
         <item itemvalue="Python.华为蜜蜂" />
-        <item itemvalue="Python.79. Word Search" />
       </list>
     </recent_temporary>
   </component>
@@ -605,13 +587,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn/quicksort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn/python_base/listdict.py" />
     <entry file="file://$PROJECT_DIR$/learn/python_base/list dict set.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -959,13 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1296890235/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="5012" column="8" selection-start-line="5012" selection-start-column="8" selection-end-line="5012" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/华为机试.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -973,10 +941,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1296890235/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/华为第一题.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="391">
+          <caret line="17" column="3" selection-start-line="13" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/华为0403.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
         </state>
       </provider>
     </entry>
