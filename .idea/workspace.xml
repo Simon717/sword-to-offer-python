@@ -2,7 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48705de-c7eb-4c57-bac3-efd091e2cc2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 二维数组查找.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02 空格替换.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 从尾到头打印链表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04 重建二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07 用两个栈实现队列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 旋转数组的最小数字.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09 斐波那契数列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 二进制中1的个数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 数值的整数次方.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14 调整数组顺序使奇数位于偶数前面.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/15 链表中倒数第k个结点.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/17 合并两个排序的链表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18 树的子结构.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19 二叉树的镜像.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19 顺时针打印矩阵.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20 包含min函数的栈.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/21 栈的压入、弹出序列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/22 从上往下打印二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/23 二叉搜索树的后序遍历序列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24 二叉树中和为某一值的路径.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/25 复杂链表的复制.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/26 二叉搜索树与双向链表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/28 字符串的排列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29 数组中出现次数超过一半的数字.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30 最小的K个数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/31 连续子数组的最大和.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/32 整数中1出现的次数（从1到n整数中1出现的次数）.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/33 把数组排成最小的数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/34 丑数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/35 第一个只出现一次的字符.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/36 数组中的逆序对.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/37 两个链表的第一个公共结点.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/38 数字在排序数组中出现的次数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/39 二叉树的深度.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/40 平衡二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/40 数组中只出现一次的数字.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/41 和为S的连续正数序列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/41 和为s的两个数字.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42 左旋转字符串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42 翻转单词顺序.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/44 扑克牌顺子.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/45 孩子们的游戏(圆圈中最后剩下的数).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/47 不用加减乘除做加法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_algo_draft.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/n个筛子的点数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉搜索树的第k个结点.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树的下一个结点.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/删除链表中重复的结点.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/华为 蛇形字符串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/华为0403.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/华为第一题.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/华为蜜蜂.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/字符流中第一个不重复的字符.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/对称的二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/序列化二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/把二叉树打印成多行.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/把字符串转换成整数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/按之字形顺序打印二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据流中的中位数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数组中重复的数字.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器人的运动范围.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/构建乘积数组.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/正则表达式匹配.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/求1+2+3+...+n.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/滑动窗口的最大值.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/矩阵中的路径.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/表示数值的字符串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/链表中环的入口结点.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,21 +98,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="197" />
+          <entry key="py" value="201" />
           <entry key="sh" value="3" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="197" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="201" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="567" />
+          <entry key="Python Console" value="578" />
           <entry key="dummy" value="19" />
-          <entry key="py" value="57053" />
+          <entry key="py" value="58085" />
           <entry key="sh" value="92" />
           <entry key="txt" value="9" />
         </counts>
@@ -52,7 +121,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="120" />
-          <entry key="Python" value="57620" />
+          <entry key="Python" value="58663" />
         </counts>
       </usages-collector>
     </session>
@@ -87,33 +156,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/华为 蛇形字符串.py">
+        <entry file="file://$PROJECT_DIR$/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网易/顺子.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
-                <marker date="1554271093723" expanded="true" signature="695:1859" ph="..." />
-                <marker date="1554271093723" expanded="true" signature="814:1172" ph="..." />
-                <marker date="1554271093723" expanded="true" signature="1209:1547" ph="..." />
+                <marker date="1554552346077" expanded="true" signature="1479:1827" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/华为第一题.py">
+        <entry file="file://$PROJECT_DIR$/网易/顺子2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="3" selection-start-line="13" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="20">
+              <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/华为0403.py">
+        <entry file="file://$PROJECT_DIR$/网易/顺子3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="-762">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/华为/华为0403.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -123,18 +208,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="305">
               <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/华为蜜蜂.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <marker date="1554257609207" expanded="true" signature="600:1017" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -164,9 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/102. Binary Tree Level Order Traversal.py" />
-        <option value="$PROJECT_DIR$/leetcode/48. Rotate Image.py" />
-        <option value="$PROJECT_DIR$/leetcode/39. Combination Sum.py" />
         <option value="$PROJECT_DIR$/leetcode/62. Unique Paths.py" />
         <option value="$PROJECT_DIR$/leetcode/215. Kth Largest Element in an Array.py" />
         <option value="$PROJECT_DIR$/leetcode/64. Minimum Path Sum.py" />
@@ -215,13 +285,17 @@
         <option value="$PROJECT_DIR$/华为机试.py" />
         <option value="$PROJECT_DIR$/华为第一题.py" />
         <option value="$PROJECT_DIR$/华为0403.py" />
+        <option value="$PROJECT_DIR$/网易/顺子.py" />
+        <option value="$PROJECT_DIR$/网易/顺子2.py" />
+        <option value="$PROJECT_DIR$/网易/顺子3.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="24" />
+    <option name="x" value="792" />
+    <option name="y" value="252" />
     <option name="width" value="1280" />
-    <option name="height" value="1416" />
+    <option name="height" value="1386" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -294,6 +368,16 @@
               <item name="sword-to-offer-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="sword-to-offer-python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sword-to-offer-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword-to-offer-python" type="462c0819:PsiDirectoryNode" />
+              <item name="华为" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword-to-offer-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword-to-offer-python" type="462c0819:PsiDirectoryNode" />
+              <item name="网易" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -303,7 +387,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/simon/code2019/sword-to-offer-python/33 把数组排成最小的数.py" />
-    <property name="last_opened_file_path" value="$USER_HOME$/code/TGS_LAST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cnnrnn" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RunDashboard">
@@ -318,8 +403,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.华为0403">
-    <configuration name="华为 蛇形字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.顺子2">
+    <configuration name="顺子" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sword-to-offer-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,32 +412,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网易" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/华为 蛇形字符串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="华为蜜蜂" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sword-to-offer-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/华为蜜蜂.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网易/顺子.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -403,6 +467,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="顺子2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sword-to-offer-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网易" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网易/顺子2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="华为第一题" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sword-to-offer-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -425,19 +510,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.华为蜜蜂" />
-      <item itemvalue="Python.华为 蛇形字符串" />
       <item itemvalue="Python.华为机试" />
       <item itemvalue="Python.华为第一题" />
       <item itemvalue="Python.华为0403" />
+      <item itemvalue="Python.顺子" />
+      <item itemvalue="Python.顺子2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.顺子2" />
+        <item itemvalue="Python.顺子" />
         <item itemvalue="Python.华为0403" />
         <item itemvalue="Python.华为第一题" />
         <item itemvalue="Python.华为机试" />
-        <item itemvalue="Python.华为 蛇形字符串" />
-        <item itemvalue="Python.华为蜜蜂" />
       </list>
     </recent_temporary>
   </component>
@@ -478,19 +563,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-6" width="2560" height="1446" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15990548" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17644742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49940923" weight="0.24789594" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49940923" visible="true" weight="0.24789594" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21104388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.17597552" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17597552" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005908" side_tool="true" weight="0.24508321" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.16832441" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -504,25 +590,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cometo41" />
     <option name="LAST_COMMIT_MESSAGE" value="cometo41" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/30 最小的K个数.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/矩阵中的路径.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -586,31 +653,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn/python_base/listdict.py" />
-    <entry file="file://$PROJECT_DIR$/learn/python_base/list dict set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1115">
-          <caret line="137" column="45" lean-forward="true" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn/quicksort_simple.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn/python_base/str.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn/python_base/io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn/Python_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
@@ -716,6 +758,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <marker date="1554015549820" expanded="true" signature="757:758" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -868,10 +913,6 @@
           <caret line="98" column="80" selection-start-line="98" selection-start-column="80" selection-end-line="98" selection-end-column="80" />
           <folding>
             <element signature="e#188#1081#0" />
-            <marker date="1553329659323" expanded="true" signature="207:238" ph="..." />
-            <marker date="1553329659323" expanded="true" signature="282:291" ph="..." />
-            <marker date="1553329659323" expanded="true" signature="572:581" ph="..." />
-            <marker date="1553329659323" expanded="true" signature="2819:3258" ph="..." />
           </folding>
         </state>
       </provider>
@@ -883,20 +924,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/142. Linked List Cycle II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/华为蜜蜂.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <marker date="1554257609207" expanded="true" signature="600:1017" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,11 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <marker date="1554271093723" expanded="true" signature="695:1859" ph="..." />
-            <marker date="1554271093723" expanded="true" signature="814:1172" ph="..." />
-            <marker date="1554271093723" expanded="true" signature="1209:1547" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,8 +982,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/华为0403.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/142. Linked List Cycle II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/华为/华为0403.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易/顺子.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <marker date="1554552346077" expanded="true" signature="1479:1827" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易/顺子2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易/顺子3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-762">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
