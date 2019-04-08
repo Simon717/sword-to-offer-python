@@ -11,7 +11,7 @@ test = """2
 6
 7 3 3 4 4 5 6
 5
-1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8 9 10 11 12 13
 """
 
 DEBUG = 1 # DEBUG = 1 用于本地调试 DEBUG = 0 用于线上提交
@@ -23,6 +23,9 @@ if DEBUG:
 else:
     import sys
     lines = sys.stdin.readlines().strip()
+
+
+from collections import Counter
 
 # lines = lines[1:]
 lines = lines[::2][1:]
@@ -46,15 +49,8 @@ for line in lines:
     nums.append(num)
 # print(nums)
 
-
-
-
-
-from collections import Counter
-
-def shunzi(nums):
+def oneline(nums):
     cnt = Counter(nums)
-
     uni = list(cnt.keys())
     uni.sort()
     cur = [uni[0]]
@@ -66,34 +62,23 @@ def shunzi(nums):
             cur = [num]
 
         if len(cur) >= 5:
-            # print()
-            # print(cur)
-            # print()
-            res += getNum(cur, cnt)
-            # index = 4 # 考虑终点的index
-            # while index < len(cur):
-            #     res += getNum(uni, cnt)
-            #     index += 1
+            res += getNumEndHere(cur, cnt)
     return res
 
-def getNum(nums, cnt):
+def getNumEndHere(nums, cnt): # 固定终点
     res = 0
     end = len(nums) - 1
-    if end >= 4:
-        stt = end - 4
-        while stt >= 0:
-            tp = nums[stt:end+1]
-            # print(tp)
-            tp_res = 1
-            for i in tp:
-                tp_res *= cnt[i]
-            res += tp_res
-            stt -= 1
-        # end -= 1
+    stt = end - 4
+    while stt >= 0:  # 考虑不同起点
+        tp_res = 1
+        for i in nums[stt:]:
+            tp_res *= cnt[i]
+        res += tp_res
+        stt -= 1
     return res
 
 for n in nums:
-    print(shunzi(n))
+    print(oneline(n))
 
 
 

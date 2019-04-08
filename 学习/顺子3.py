@@ -53,17 +53,17 @@ for i in range(N):
     for num in nums:
         m[num][num] = 1
 
-    for r in range(1, 13):
+    for dis in range(1, 13):
         for i in range(1, 10):
-            j = i + r
+            j = i + dis
             if j >= 13:
                 break
             m[i][j] = 1 if (m[i][j - 1] == 1 and j in nums) else 0
 
     ans = 0
-    for r in range(4, 13):
+    for dis in range(4, 13):
         for i in range(1, 10):
-            j = i + r
+            j = i + dis
             if j >= 13:
                 break
             if m[i][j] == 1:

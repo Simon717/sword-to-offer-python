@@ -20,10 +20,10 @@ test = """2
 6
 7 3 3 4 4 5 6
 5
-1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8 9 10 11 12 13
 """
 
-DEBUG = 0 # DEBUG = 1 用于本地调试 DEBUG = 0 用于线上提交
+DEBUG = 1 # DEBUG = 1 用于本地调试 DEBUG = 0 用于线上提交
 if DEBUG:
     with open('test.txt', 'w') as f:
         f.writelines(test)
@@ -68,7 +68,7 @@ else m[i][j] = 0
 
 for i in range(N):
     nums = lines[i]
-    m = [[0] * (14) for j in range(10)]
+    m = [[0] * (14) for j in range(14)]
 
     # 统计各元素出现次数
 
@@ -77,10 +77,11 @@ for i in range(N):
     for num in nums:
         m[num][num] = 1
 
+    # 一开始不考虑长度是5的限制 只关心ij之间的连续性
     for r in range(1, 13):
         for i in range(1, 10):
             j = i + r
-            if j >= 13:
+            if j >= 14:
                 break
             m[i][j] = 1 if (m[i][j - 1] == 1 and j in nums) else 0
 
@@ -88,7 +89,7 @@ for i in range(N):
     for r in range(4, 13):
         for i in range(1, 10):
             j = i + r
-            if j >= 13:
+            if j >= 14:
                 break
             if m[i][j] == 1:
                 tmp = 1
