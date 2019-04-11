@@ -17,14 +17,17 @@ else:
     import sys
 
     lines = sys.stdin.readlines()
+# 分割行
 high = lines[1:-1]
 sttend = lines[-1]
 
+#　分别处理各个部分　每一行都要.strip() list(map(int, strlist))
 matrix = []
 for line in high:
     line = line.strip().split(" ")
     matrix.append(list(map(int, line)))
 
+# 这种处理非常常用
 sttend = sttend.strip().split(" ")
 sttend = list(map(int, sttend))
 
@@ -33,12 +36,12 @@ res = 0
 
 def DFS(i, j, prev):
     global res
-    if not 0 <= i < rows or not 0 <= j < cols or matrix[i][j] <= prev:
+    if not 0 <= i < rows or not 0 <= j < cols or matrix[i][j] <= prev: #  先check当前点是否合法
         return
-    if [i, j] == [sttend[2], sttend[3]]:
+    if [i, j] == [sttend[2], sttend[3]]: # 结果收集
         res += 1
         return
-    if 0 <= i < rows and 0 <= j < cols and matrix[i][j] != float('-inf'):
+    if matrix[i][j] != float('-inf'):
         temp = matrix[i][j]
         matrix[i][j] = float('-inf')
         DFS(i + 1, j, temp)
