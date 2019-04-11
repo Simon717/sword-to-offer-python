@@ -16,8 +16,10 @@
 f(i,j) = f(i-1,j) + f(i-1, j-num) 
          no pick     pick num
 其中 i in [0, len(nums)] 表示使用数组的一个数一直到使用N个数
-j 表示当前的目标数字 [0, target] 表示目标和从0开始一直到真正的target
+j 表示当前的目标 [0, target] 表示目标和从0开始一直到真正的target
 - num 表示当前考察到的数组中的数 要还是不要这个数 对应了两种选择
+
+利用少一点的数得到的结果 计算多点的数得到的结果
 """
 class Solution(object):
     def findTargetSumWays(self, nums, S):

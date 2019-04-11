@@ -123,9 +123,9 @@ if __name__ == '__main__':
     # print("permutation =>")
     # permutation(3, 2)
     #
-    # print("combination =>")
-    # combination(3, 2)
-    # #
+    print("combination =>")
+    combination(3, 2)
+    #
     # print("nqueen =>")
     # nqueen(4)
     #

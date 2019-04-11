@@ -38,3 +38,7 @@ if __name__ == '__main__':
             ]
     solu = Solution()
     print(solu.minPathSum(test))
+
+    import sys
+    lines = sys.stdin.readlines()
+    print(lines)

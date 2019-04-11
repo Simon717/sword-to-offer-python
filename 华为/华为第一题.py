@@ -17,7 +17,7 @@ test = """3
 1,7,4,3,4
 """
 
-DEBUG = 1 # DEBUG = 1 用于本地调试 DEBUG = 0 用于线上提交
+DEBUG = 0 # DEBUG = 1 用于本地调试 DEBUG = 0 用于线上提交
 if DEBUG:
     with open('test.txt', 'w') as f:
         f.writelines(test)
@@ -25,12 +25,12 @@ if DEBUG:
         lines = f.readlines() # 利用txt文件的readlines 模拟sys.stdin.readlines() 不需要每一次手动输入测试样例 不然心态容易炸裂
 else:
     import sys
-    lines = sys.stdin.readlines().strip()
+    lines = sys.stdin.readlines()
 
 step = int(lines[0])
 arrays = []
 for line in lines[1:]:
-    array = [int(x) for x in line.split(',')]
+    array = [int(x) for x in line.strip().split(',')]
     arrays.append(array)
 
 res = []

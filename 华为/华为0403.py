@@ -20,7 +20,7 @@ if DEBUG:
         lines = f.readlines() # 利用txt文件的readlines 模拟sys.stdin.readlines() 不需要每一次手动输入测试样例 不然心态容易炸裂
 else:
     import sys
-    lines = sys.stdin.readlines().strip()
+    lines = sys.stdin.readlines()
 
 valid = []
 invalid = []
