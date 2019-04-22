@@ -12,11 +12,12 @@
 例如，字符串"aaa"与模式"a.a"和"ab*ac*a"匹配，但是与"aa.a"和"ab*a"均不匹配
 '''
 
+
 # -*- coding:utf-8 -*-
 class Solution:
     # s, pattern都是字符串
     def match(self, s, pattern):
-        if not s or not pattern: # 00 01 10
+        if not s or not pattern:  # 00 01 10
             return False
         # 如果s和pattern匹配, 直接True
         if s == pattern:
@@ -60,26 +61,29 @@ class Solution:
             return True
         return False
 
+
 # -*- coding:utf-8 -*-
 """
 通过率 96%
 剩下的超过递归深度
 """
+
+
 class Solution_:
     # s, pattern都是字符串
     def match(self, s, pattern):
-        if not s and not  pattern: # 0 0
+        if not s and not pattern:  # 0 0
             return True
-        if s and not pattern: # 1 0
+        if s and not pattern:  # 1 0
             return False
 
         if len(pattern) >= 2 and pattern[1] == '*':
-            if pattern[0] == '.':   # .*
+            if pattern[0] == '.':  # .*
                 return self.match(s, pattern[2:]) or self.match(s[1:], pattern)
             else:  # a*
-                if s and pattern[0] == s[0]: # ab a*
-                    return self.match(s[1:], pattern) or self.match(s, pattern[2:]) # 替代0个a or 替代1个a
-                else: # bb a*
+                if s and pattern[0] == s[0]:  # ab a*
+                    return self.match(s[1:], pattern) or self.match(s, pattern[2:])  # 替代0个a or 替代1个a
+                else:  # bb a*
                     return self.match(s, pattern[2:])
         elif pattern[0] == '.':
             if s:
@@ -92,6 +96,7 @@ class Solution_:
             else:
                 return False
 
+
 """
 牛客AC 
 
@@ -102,11 +107,13 @@ ab a*
 2. 没有耗尽
     b a*
 """
+
+
 class Solution__:
     def match(self, s, pattern):
-        if not s and not pattern: # 0 0
+        if not s and not pattern:  # 0 0
             return True
-        if s and not pattern: # 1 0 没有模式只有字符 肯定无法完成匹配
+        if s and not pattern:  # 1 0 没有模式只有字符 肯定无法完成匹配
             return False
 
         # 01  11
@@ -120,6 +127,7 @@ class Solution__:
         else:
             return False
 
+
 if __name__ == '__main__':
     a = 'aba'
     p = '.*'
@@ -127,8 +135,30 @@ if __name__ == '__main__':
     print(solu.match(a, p))
 
 
-
 #
 # if __name__ == '__main__':
 #     s = Solution()
 #     print(s.match('aaa', 'a*a'))
+
+
+# when there is a "*", either you can skip this pattern (appears 0 times),
+# or you can match one or more times
+class Solution(object):
+    def isMatch(self, text, pattern):
+        memo = {}
+
+        def dp(i, j):
+            if (i, j) not in memo:
+                if j == len(pattern):
+                    res = i == len(text)
+                else:
+                    first_match = i < len(text) and pattern[j] in {text[i], '.'}
+                    if j + 1 < len(pattern) and pattern[j + 1] == '*': # 有*
+                        res = dp(i, j + 2) or first_match and dp(i + 1, j) # *相当于没出现 or 第一个字符匹配 and *使用一次
+                    else: # 没有*
+                        res = first_match and dp(i + 1, j + 1) # 第一个字符必须匹配 and 考虑后面
+
+                memo[i, j] = res # 存下当前解
+            return memo[i, j]
+
+        return dp(0, 0)

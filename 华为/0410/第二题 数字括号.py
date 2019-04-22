@@ -32,9 +32,9 @@ for c in line:
         tp += stack.pop()
     stack.pop()
     num = ''
-    while stack[-1].isdigit():
+    while stack and stack[-1].isdigit():
         num += stack.pop()
     num = int(num[::-1])
     tp = tp * num
-    stack.append(tp[::-1])
+    stack.extend(list(tp[::-1])) # 必须转成list 按照元素存放
 print(''.join(stack[::-1]))

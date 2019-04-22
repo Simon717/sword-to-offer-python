@@ -48,7 +48,7 @@ class Solution_(object):
         return decode(s)
 """
 堆栈解
-实在太秀了
+使用两个list更加好写
 """
 class Solution:
     def decodeString(self, s):
@@ -74,6 +74,33 @@ class Solution:
                 prev_str, cnt = stack.pop()
                 stack[-1][0] += prev_str * cnt
         return stack[0][0]
+
+"""
+堆栈解 只是用一个list
+"""
+class Solution__(object):
+    def decodeString(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        stack = []
+        for i in s:
+            if i != ']':
+                stack.append(i)
+                continue
+            alpha = ''
+            while stack[-1] != '[':
+                alpha += stack.pop()
+            stack.pop()
+
+            num = ''
+            while stack and stack[-1].isdigit():
+                num += stack.pop()
+            num = int(num[::-1])
+            stack += list([alpha[::-1] * num]) # 必须按照元素存放
+        return ''.join(stack)
+
 
 """
 递归解
@@ -112,9 +139,10 @@ class Solution:
         return helper(s)
 
 if __name__ == '__main__':
-    test = '3[a]'
-    test = '"3[z]2[2[y]pq4[2[jk]e1[f]]]ef"'
+    # test = '3[2[d]e1[f]]'
+    # test = "2[2[jk]]"
+    test = "3[z]2[2[y]pq4[2[jk]e1[f]]]ef"
     # test = "10[s]"
-    solu = Solution_()
+    solu = Solution__()
     print(solu.decodeString(test))
 

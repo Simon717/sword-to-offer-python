@@ -7,7 +7,9 @@
 """
 
 
-# Top down - TLE
+"""
+Top down - TLE 递归求解
+"""
 def climbStairs1(self, n):
     if n == 1:
         return 1
@@ -15,11 +17,42 @@ def climbStairs1(self, n):
         return 2
     return self.climbStairs(n - 1) + self.climbStairs(n - 2)
 
+"""
+top down  + memo
+仍然采用递归求解
+但是将解存下 就可以避免重复计算
+"""
+class Solution(object):
+    def climbStairs(self, n):
+        if n == 1: return 1
+        dic = [-1 for i in range(n)] # 把解存下来 避免重复计算
+        dic[0], dic[1] = 1, 2
+        return self.dp(n - 1, dic)
+
+    def dp(self, n, res):
+        if res[n] == -1:
+            res[n] = self.dp(n - 1, res) + self.dp(n - 2, res)
+        return res[n]
+
+"""
+采用hash表 好处在于不需要一开始定义数组
+"""
+class Solution0(object):
+    # Top down + memorization (dictionary)
+    def __init__(self):
+        self.dic = {1: 1, 2: 2}
+
+
+    def climbStairs(self, n):
+        if n not in self.dic:
+            self.dic[n] = self.climbStairs(n - 1) + self.climbStairs(n - 2)
+        return self.dic[n]
 
 """
 生成式解法 列表推导
+Bottom up, O(n) space
 """
-# Bottom up, O(n) space
+
 def climbStairs2(self, n):
     if n == 1:
         return 1
@@ -39,28 +72,3 @@ def climbStairs3(self, n):
         a, b = b, a + b
     return b
 
-class Solution(object):
-    # Top down + memorization (list)
-    def climbStairs4(self, n):
-        if n == 1:
-            return 1
-        dic = [-1 for i in range(n)]
-        dic[0], dic[1] = 1, 2
-        return self.helper(n - 1, dic)
-
-
-    def helper(self, n, dic):
-        if dic[n] < 0:
-            dic[n] = self.helper(n - 1, dic) + self.helper(n - 2, dic)
-        return dic[n]
-
-class Solution0(object):
-    # Top down + memorization (dictionary)
-    def __init__(self):
-        self.dic = {1: 1, 2: 2}
-
-
-    def climbStairs(self, n):
-        if n not in self.dic:
-            self.dic[n] = self.climbStairs(n - 1) + self.climbStairs(n - 2)
-        return self.dic[n]
